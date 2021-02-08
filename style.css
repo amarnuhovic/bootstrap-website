@@ -1,0 +1,83 @@
+#nav{
+    position: relative;
+    top:5vh;
+}
+#menu{
+    background-image: url(imgs/menu.png);
+}
+#text{
+    position: relative;
+    top:15vh;
+    left:3vw;
+    z-index: 1;
+}
+
+#first,#work,#blog{
+    width: 80vw;
+    margin: 0 auto;
+}
+#footer {
+    width: 80vw;
+}
+
+@media only screen and (max-width: 1240px) {
+    #nav  p {
+         font-size: 22px;
+    }
+    #span1{
+        font-size:1rem;
+    }
+    #text p {
+        font-size: 1rem;
+    }
+
+    
+  }
+  @media only screen and (min-width:960px) {
+    #text{
+        width: 50vw;
+    }
+
+  }
+
+@media only screen and (max-width: 960px) {
+    #nav  p {
+         font-size: 22px;
+    }
+    #span1{
+        font-size:1rem;
+        
+    }
+    #text p {
+        font-size:1.5rem;
+    }
+    #text {
+        top:10vh;
+       
+    }
+    
+    
+  }
+
+
+@media only screen and (max-width: 600px) {
+    #nav  p {
+         font-size: 22px;
+    }
+    #span1{
+        font-size:1rem;
+    }
+    #text p {
+        font-size: 8px;
+        
+    }
+    #text{
+        top:8vh;
+        
+        
+    }
+   
+    }
+    
+  
+
